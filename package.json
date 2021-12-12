@@ -1,0 +1,32 @@
+{
+  "name": "tdd-app",
+  "version": "1.0.0",
+  "description": "TDD practice app",
+  "main": "index.js",
+  "scripts": {
+    "test:ci": "jest --silent --coverage --noStackTrace",
+    "test": "jest --watch --silent",
+    "dev": "nodemon src/main/index.js",
+    "start": "node src/main/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "tdd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "validator": "^13.7.0"
+  }
+}
