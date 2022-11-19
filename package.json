@@ -1,7 +1,7 @@
 {
-  "name": "tdd-app",
+  "name": "app",
   "version": "1.0.0",
-  "description": "TDD practice app",
+  "description": "app",
   "main": "index.js",
   "scripts": {
     "test:ci": "jest --silent --coverage --noStackTrace",
@@ -11,14 +11,17 @@
   },
   "keywords": [
     "nodejs",
-    "javascript",
-    "tdd"
+    "javascript"
   ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^10.0.0",
-    "husky": "^7.0.4",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "dotenv": "16.0.2",
     "jest": "^27.4.4",
     "nodemon": "^2.0.15"
   },
